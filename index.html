@@ -43,6 +43,7 @@
   }
   .ghost-cta:hover{background:rgba(255,255,255,.12); border-color:rgba(255,255,255,.75);}
   .ghost-cta:focus-visible{outline:3px solid var(--teal); outline-offset:3px;}
+  .collab-line{font-size:14px;font-weight:600;color:#9fc4dc;letter-spacing:.06em;}
   .hero h1{color:#fff; font-size:44px; font-weight:700; letter-spacing:-.02em;}
   .subtitle{font-family:'Newsreader',Georgia,serif; font-style:italic; font-weight:300; font-size:31px; color:#bcd3e6; margin-top:4px; letter-spacing:.004em;}
   .hero-row{display:grid; grid-template-columns:1fr 2fr; gap:36px; align-items:center; margin-top:36px;}
@@ -212,6 +213,7 @@
   .gate-btn{display:block;width:100%;background:#E65F2B;color:#fff;border:none;font-family:'Inter',system-ui,sans-serif;font-size:16px;font-weight:700;padding:14px 24px;border-radius:var(--r);cursor:pointer;transition:filter .18s;letter-spacing:.01em;}
   .gate-btn:hover{filter:brightness(.92);}
   .gate-btn:focus-visible{outline:3px solid #00A5B5;outline-offset:3px;}
+  .gate-byline{font-family:'Newsreader',Georgia,serif;font-style:italic;font-weight:300;font-size:22px;color:#bcd3e6;margin:4px 0 26px;letter-spacing:.004em;}
   .gate-err{color:#7dd3d8;font-size:14px;margin:12px 0 0;min-height:20px;}
 </style>
 </head>
@@ -220,7 +222,8 @@
 <!-- ===== PASSWORD GATE ===== -->
 <div id="gate">
   <div class="gate-inner">
-    <h1 class="gate-title">MAX Curriculum Refresh — Working Estimate</h1>
+    <h1 class="gate-title">Curriculum Refresh — Working Estimate</h1>
+    <p class="gate-byline">by Jackrabbit LX</p>
     <p class="gate-sub">Please enter the access code to continue.</p>
     <input class="gate-input" type="password" id="gateInput" placeholder="Access code" autocomplete="off" aria-label="Access code">
     <button class="gate-btn" id="gateBtn">Continue</button>
@@ -241,6 +244,7 @@
 <header class="hero">
   <div class="wrap">
     <div class="hero-topbar reveal">
+      <span class="collab-line">AccessLex &times; Jackrabbit LX</span>
       <a class="ghost-cta" href="https://meetings.hubspot.com/jason359" target="_blank" rel="noopener">Find a time to talk &rarr;</a>
     </div>
     <h1 class="reveal" style="animation-delay:.05s">MAX Curriculum Refresh</h1>
